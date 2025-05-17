@@ -1,0 +1,86 @@
+/* using type selector */
+h1 {
+  color: red;
+  text-align: center;
+}
+/*  uses curly braces bracket
+Property is the what you want to fix
+Value is what you want it to look like*/
+
+/* using class selector, to select a class in css, we use . with the name of the class attribute*/
+
+.Heading_four {
+  color: blue;
+}
+
+/* using id selector. to select a id we use # and the attribute created in the opening tage of the html element */
+#para_one {
+  color: rgb(21, 162, 5);
+}
+
+/* using decendants combinator selector */
+.container h1 {
+  color: aquamarine;
+  text-align: left;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-left: 50%;
+  border-radius: 5%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button:active {
+  background-color: red;
+}
+
+.secondbtn {
+  background-color: blue;
+  margin-top: 10%;
+}
+
+.secondbtn:active {
+  background-color: lightblue;
+}
+
+.heightandwidth {
+  background-color: lightblue;
+  height: 500px;
+  width: 500px;
+  margin-top: 100px;
+}
+
+p {
+  font-size: larger;
+  color: violet;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contain {
+}
+
+.display {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  gap: 3px;
+}
+
+.display_one {
+  background-color: blueviolet;
+}
+/* using the display inline method */
+.inline_method p {
+  display: inline;
+}
